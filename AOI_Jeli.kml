@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>AOI_Jeli.kml</name>
+	<Style id="area1">
+		<IconStyle>
+			<Icon>
+			</Icon>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>00ffffff</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Jeli_Bdry-WGS</name>
+		<description>Jeli_Bdry-WGS</description>
+		<Placemark>
+			<name>5151</name>
+			<description><![CDATA[Unknown Area Type<BR><BR><B>FID</B> = 0<BR><B>LOT</B> = 5151<BR><B>Ha</B> = 85.420921<BR><B>KML_STYLE</B> = PolyStyle00]]></description>
+			<styleUrl>#area1</styleUrl>
+			<MultiGeometry>
+				<Point>
+					<coordinates>101.9236863145,5.5538666239,0</coordinates>
+				</Point>
+				<Polygon>
+					<outerBoundaryIs>
+						<LinearRing>
+							<coordinates>
+								101.9279311823,5.5540136323,0 101.9280052292,5.5557722465,0 101.9239598655,5.5583621313,0 101.9198395016,5.5584452483,0 101.9190707494,5.5529949731,0 101.9210000828,5.5526082836,0 101.9216171404,5.5513124627,0 101.9220367396,5.5506213582,0 101.9240500191,5.5509543102,0 101.9276591776,5.5502859715,0 101.9328614725,5.5492879995,0 101.9334826438,5.5507195732,0 101.9279311823,5.5540136323,0 
+							</coordinates>
+						</LinearRing>
+					</outerBoundaryIs>
+				</Polygon>
+			</MultiGeometry>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
